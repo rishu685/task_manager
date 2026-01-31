@@ -1,0 +1,13 @@
+{
+  "name": "task-management-frontend",
+  "version": "1.0.0",
+  "description": "Frontend for Task Management Application",
+  "main": "index.html",
+  "scripts": {
+    "start": "python3 -m http.server 3000",
+    "serve": "python3 -m http.server 8080"
+  },
+  "keywords": ["task", "management", "frontend", "html", "css", "javascript"],
+  "author": "",
+  "license": "MIT"
+}

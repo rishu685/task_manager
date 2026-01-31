@@ -1,0 +1,31 @@
+{
+  "name": "task-management-app",
+  "version": "1.0.0",
+  "description": "Full-stack task management web application",
+  "main": "backend/server.js",
+  "scripts": {
+    "start": "cd backend && npm start",
+    "dev": "cd backend && npm run dev",
+    "install-backend": "cd backend && npm install",
+    "install-frontend": "cd frontend && npm install",
+    "install-all": "npm run install-backend && npm run install-frontend",
+    "start-frontend": "cd frontend && python3 -m http.server 8080",
+    "test": "cd backend && npm test"
+  },
+  "keywords": [
+    "task-management",
+    "nodejs",
+    "express",
+    "mongodb",
+    "javascript",
+    "html",
+    "css",
+    "full-stack"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/task-management-app.git"
+  }
+}
