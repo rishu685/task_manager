@@ -90,7 +90,7 @@ task-management-app/
 
 1. **Clone the repository**
    ```bash
-   git clone <repository-url>
+   git clone (https://github.com/rishu685/task_manager)
    cd task-management-app
    ```
 
