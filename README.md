@@ -2,8 +2,7 @@
 
 A full-stack task management system built for the Full Stack Development Internship skill assessment. This application demonstrates proficiency in modern web development technologies including frontend, backend, database management, and system design.
 
-![Task Management App Screenshot](https://via.placeholder.com/800x400/667eea/ffffff?text=Task+Management+System)
-
+!
 ## 🚀 Features
 
 ### Core Functionality
