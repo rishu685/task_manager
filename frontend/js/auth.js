@@ -211,13 +211,13 @@ class AuthModal {
 
     updateModalMode() {
         if (this.isLoginMode) {
-            this.modalTitle.textContent = 'Login';
+            this.modalTitle.innerHTML = '<i class="fas fa-sign-in-alt"></i> Login';
             this.usernameGroup.style.display = 'none';
             this.submitBtn.textContent = 'Login';
             this.switchText.innerHTML = 'Don\'t have an account? <a href="#" id="switch-auth">Register here</a>';
             document.getElementById('auth-username').removeAttribute('required');
         } else {
-            this.modalTitle.textContent = 'Register';
+            this.modalTitle.innerHTML = '<i class="fas fa-user-plus"></i> Register';
             this.usernameGroup.style.display = 'block';
             this.submitBtn.textContent = 'Register';
             this.switchText.innerHTML = 'Already have an account? <a href="#" id="switch-auth">Login here</a>';

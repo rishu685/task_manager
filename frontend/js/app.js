@@ -317,7 +317,7 @@ class TaskManager {
 
         if (task) {
             // Edit mode
-            modalTitle.textContent = 'Edit Task';
+            modalTitle.innerHTML = '<i class="fas fa-edit"></i> Edit Task';
             submitBtn.textContent = 'Update Task';
             this.editingTaskId = task._id;
             
@@ -336,7 +336,7 @@ class TaskManager {
             document.getElementById('task-tags').value = task.tags ? task.tags.join(', ') : '';
         } else {
             // Add mode
-            modalTitle.textContent = 'Add New Task';
+            modalTitle.innerHTML = '<i class="fas fa-tasks"></i> Add New Task';
             submitBtn.textContent = 'Add Task';
         }
 
