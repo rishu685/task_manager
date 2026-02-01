@@ -2,7 +2,7 @@
 
 A full-stack task management system built for the Full Stack Development Internship skill assessment. This application demonstrates proficiency in modern web development technologies including frontend, backend, database management, and system design.
 
-!
+
 ## 🚀 Features
 
 ### Core Functionality
